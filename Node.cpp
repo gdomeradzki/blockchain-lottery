@@ -124,7 +124,6 @@ std::optional<EventPlayerJoin> Node::joinToLottery()
         return eventPlayerJoin;
     }
     std::cout << "Player #" << playerId << " says: "
-              << "Player #" << playerId << " says: "
               << "Player #" << playerId << " decided to skip the lottery" << std::endl;
     return std::nullopt;
 }
